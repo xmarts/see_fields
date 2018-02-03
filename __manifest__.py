@@ -9,8 +9,9 @@
     """,
     'author': "Xmarts, Nayeli Valencia Díaz",
     'website': "http://www.xmarts.com",
-    'depends': ['base'],
+    'depends': ['base','product','stock_account','product_margin'],
     'data': [
         'views/views.xml',
+'views/templates.xml',
     ]
 }
